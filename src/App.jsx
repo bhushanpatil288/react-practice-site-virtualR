@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import FeatureSection from './components/FeatureSection'
+import WorkflowSection from './components/WorkflowSection'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <FeatureSection />
+      <WorkflowSection />
     </div>
   )
 }
