@@ -42,7 +42,7 @@ const Navbar = () => {
             </button>
           </div>
           {hamburgerOpen && (
-            <div className='fixed right-0 top-17 z-20 bg-neutral-900 w-full p-12 flex flex-col sm:flex-row gap-5 sm:gap-0 justify-between items-center lg:hidden'>
+            <div className='fixed right-0 top-16 z-20 bg-neutral-900 w-full p-12 flex flex-col sm:flex-row gap-5 sm:gap-0 justify-between items-center lg:hidden'>
               <ul className='w-1/3'>
                 {navItems.map((item, idx)=>(
                   <li key={idx} className='py-4 px-3 rounded-md hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-900 cursor-pointer transition duration-300 rounded-md active:scale-95'>
